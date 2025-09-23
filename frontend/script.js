@@ -1,4 +1,4 @@
-let URL_BASE = "https://neo.onrender.com";  // link do Render
+let URL_BASE = "https://neo-study-assistant.onrender.com/";  // link do Render
 
 async function enviarArquivo() {
   let arquivo = document.getElementById("arquivo").files[0];
