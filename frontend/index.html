@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Neo - IA de Estudo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">Neo - IA de Estudo</div>
+    <div id="chat" class="chat-box"></div>
+    
+    <div class="upload-bar">
+      <input type="file" id="arquivo">
+      <button onclick="enviarArquivo()">Enviar Arquivo</button>
+      <button onclick="resetarMemoria()">Limpar Memória</button>
+    </div>
+    
+    <div class="input-bar">
+      <input type="text" id="pergunta" placeholder="Digite sua pergunta...">
+      <button onclick="fazerPergunta()">Enviar</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
