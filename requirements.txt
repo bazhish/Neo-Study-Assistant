@@ -1,9 +1,0 @@
-flask
-transformers
-torch
-sentence-transformers
-python-docx
-pandas
-openpyxl
-python-pptx
-PyPDF2
