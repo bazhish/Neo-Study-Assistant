@@ -31,9 +31,12 @@ h1 {
 }
 section {
     background-color: rgb(67, 39, 168);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(3, 3, 88);
     padding: 20px;
     margin: 30px;
     border: 2px solid rgb(97, 27, 27);
+    color: antiquewhite;
 }
 
 .container {
